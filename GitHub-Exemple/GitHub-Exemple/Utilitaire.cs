@@ -9,5 +9,10 @@ namespace GitHub_Exemple
     static class Utilitaire
     {
         static Random randomGen = new Random();
+
+        static int GenRan(int min, int max)
+        {
+            return randomGen.Next(min, max + 1);
+        }
     }
 }
