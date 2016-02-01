@@ -18,6 +18,14 @@ namespace GitHub_Exemple
         static void WriteTable(int[] table)
         {
             Console.WriteLine("Ecrire la table");
+	}
+
+        
+        static int[] GenTable(int lenght)
+        {
+            int[] Table = new int[lenght];
+            
+            return Table;
         }
     }
 }
