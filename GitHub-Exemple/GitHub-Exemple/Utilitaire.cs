@@ -14,5 +14,12 @@ namespace GitHub_Exemple
         {
             return randomGen.Next(min, max + 1);
         }
+        
+        static int[] GenTable(int lenght)
+        {
+            int[] Table = new int[lenght];
+            
+            return Table;
+        }
     }
 }
